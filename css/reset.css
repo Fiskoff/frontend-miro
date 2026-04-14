@@ -1,0 +1,77 @@
+/* Сброс стилей*/
+
+/* Box-sizing: border-box — основа предсказуемой верстки */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внешние отступы у блочных элементов */
+body,
+h1, h2, h3, h4, h5, h6,
+p, figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+/* Списки: убираем маркеры и внутренние отступы */
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Ссылки: убираем подчеркивание, наследуем цвет */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Медиа: адаптивность без лишних отступов */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6Базовые стили body: шрифт, сглаживание, межстрочный интервал */
+body {
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  line-height: var(--line-height-normal, 1.5);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg, #ffffff);
+  color: var(--color-text, #111827);
+}
+
+/* Формы: единообразие шрифтов и цветов */
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+}
+
+/* Кнопки: сброс дефолтных стилей браузера */
+button, [role="button"] {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/* Плавная прокрутка */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Доступный фокус: только для клавиатурной навигации */
+:focus-visible {
+  outline: 2px solid var(--color-primary, #2563eb);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Убираем стандартный маркер у <details> */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
