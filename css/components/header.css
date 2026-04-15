@@ -1,1 +1,73 @@
-ф
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 100%;
+}
+
+
+
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  height: 64px;                   
+}
+
+
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* Отступ между логотипом и меню */
+}
+
+.header__logo {
+  display: block;
+  height: 24px;
+  width: auto;
+}
+
+.header__list {
+  display: flex;
+  gap: 32px; /* Отступы между пунктами меню */
+}
+
+.header__link {
+  font-size: 15px;
+  font-weight: 400;
+  color: #1f2937;
+}
+
+
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__lang {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.header__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 10px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #4262ff;
+  border: none;
+  border-radius: 24px;
+}
+

@@ -10,19 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="./imges/miro-logo-header.svg" alt="логотип miro" class="header__logo">
-        <nav class="header__nav">
-            <ul class="header_list">
-                <li class="header__item"><a href="#">Продукт</a></li>
-                <li class="header__item"><a href="#">Решения</a></li>
-                <li class="header__item"><a href="#">Ресурсы</a></li>
-                <li class="header__item"><a href="#">Предприятия</a></li>
-            </ul>
-        </nav>
-        <img src="./imges/icon-internet-header.svg" alt="иконка интернета" class="header__icon">
-        <button class="header__btn">Регистрация</button>
+
+    <header class="header">
+        <div class="container header__inner">
+
+            <div class="header__left">
+                <a href="/" class="header__logo-link" aria-label="На главную"> 
+                    <img src="./imges/miro-logo-header.svg" alt="Miro" class="header__logo">
+                </a>
+
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item"><a href="#" class="header__link">Продукт</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Решения</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Ресурсы</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Предприятия</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Тарифы</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="header__right">
+                <img class="header__lang" src="./imges/icon-internet-header.svg" alt="">
+                <button class="header__btn">Регистрация</button>
+            </div>
+
+        </div>
     </header>
+
     <main>
         <section>
             <div>
