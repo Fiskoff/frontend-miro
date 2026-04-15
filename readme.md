@@ -1,0 +1,1 @@
+Макет сайта - https://www.figma.com/design/7KDxobww8bmdTb1FhKJUyM/09---HTML-и-CSS?node-id=2-649&t=7kxKNHz6PeNgQGiP-0
