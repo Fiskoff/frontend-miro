@@ -1,0 +1,56 @@
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+    padding: 0 50px;
+}
+
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+.hero__title{
+    max-width: 285px;
+    margin: 0px 0px 20px 0px;
+}
+
+.hero__description {
+    margin: 0px 0px 55px 0px;
+}
+
+
+.hero__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 0 50px 0;
+}
+
+.hero__input {
+    border: 1px solid #9B99AF;
+    border-radius: 32px;
+    min-height: 50px;
+}
+
+.hero__button {
+    min-height: 50px;
+
+}
+
+.hero__sponsors {
+    display: flex;
+    gap: 20px;
+}
+
+
+.hero__right {
+    display: flex;
+}
+
+.hero__main-img {
+    max-width: 605px;
+    max-height: 461px;
+}

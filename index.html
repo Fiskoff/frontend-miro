@@ -10,28 +10,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <header class="header">
+    <header>
         <div class="container header__inner">
 
             <div class="header__left">
                 <a href="/" class="header__logo-link" aria-label="На главную"> 
-                    <img src="./imges/miro-logo-header.svg" alt="Miro" class="header__logo">
+                    <img src="./imges/header/miro-logo-header.svg" alt="Miro" class="header__logo">
                 </a>
 
                 <nav class="header__nav">
                     <ul class="header__list">
-                        <li class="header__item"><a href="#" class="header__link">Продукт</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Решения</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Ресурсы</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Предприятия</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Тарифы</a></li>
+                        <li><a href="#" class="header__link">Продукт</a></li>
+                        <li><a href="#" class="header__link">Решения</a></li>
+                        <li><a href="#" class="header__link">Ресурсы</a></li>
+                        <li><a href="#" class="header__link">Предприятия</a></li>
+                        <li><a href="#" class="header__link">Тарифы</a></li>
                     </ul>
                 </nav>
             </div>
             
             <div class="header__right">
-                <img class="header__lang" src="./imges/icon-internet-header.svg" alt="">
+                <img class="header__lang" src="./imges/header/icon-internet-header.svg" alt="">
                 <button class="header__btn">Регистрация</button>
             </div>
 
@@ -39,26 +38,32 @@
     </header>
 
     <main>
-        <section>
-            <div>
-                <h1>Место для командной работы</h1>
-                <p>
-                    Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом месте.
-                </p>
-                <form action="#">
-                    <input type="text"></input>
-                    <button>Начать бесплатно</button>
-                    <p>Всегда бесплатно - кредитная карта не нужна</p>
-                </form>
-            </div>
-            <div>
-                <p>45M+ пользователей</p>
-                <img src="#" alt="logo walmart">
-                <img src="#" alt="logo cisco">
-                <img src="#" alt="logo deloitte">
-                <img src="#" alt="logo volvo">
-            </div>
-            <img src="#" alt="Изображение экрана работы Miro">
+        <section class="container hero__inner">
+                <div class="hero__left">
+                    <div class="hero__text">
+                        <h1 class="hero__title">Место для командной работы</h1>
+                        <p class="hero__description">
+                            Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом месте.
+                        </p>
+                        <form action="#" class="hero__form">
+                            <input type="text" class="hero__input"></input>
+                            <button class="hero__button">Начать бесплатно</button>
+                            <p hero__note>Всегда бесплатно - кредитная карта не нужна</p>
+                        </form>
+                    </div>
+                
+                    <div class="hero__sponsors">
+                        <p>45M+ пользователей</p>
+                        <img src="/imges/hero/icon-walmart.svg" alt="logo walmart">
+                        <img src="/imges/hero/icon-cisco.svg" alt="logo cisco">
+                        <img src="/imges/hero/icon-deloitte.svg" alt="logo deloitte">
+                        <img src="/imges/hero/icon-volvo.svg" alt="logo volvo">
+                    </div>
+                </div>
+
+                <div class="hero__right">
+                    <img src="/imges/hero/screen-miro.png" alt="Изображение экрана работы Miro" class="hero__main-img">
+                </div>
         </section>
         <section>
             <div>
