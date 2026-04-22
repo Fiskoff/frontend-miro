@@ -1,0 +1,41 @@
+.tools-list {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content:  space-between;
+}
+
+.tools__title {
+    margin: 30px 0px 25px 0px;
+}
+
+.tools__text {
+    max-width: 300px;
+}
+
+.tools__text-p{
+    margin: 0px 0px 30px 0px;
+}
+
+.tools__img {
+    max-width: 700px;
+    max-height: 520px;
+}
+
+.tools__wrapper--inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+    padding-left: 15px;
+}
+
+.tools h2 {
+    margin-bottom: 35px;
+}
+
+.tools__custom-list {
+    list-style-image: url('/imges/tools/marker.svg');
+}
+
+

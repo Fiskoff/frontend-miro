@@ -29,6 +29,11 @@
 
 .hero__button {
     min-height: 50px;
+    background-color: #4262FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: 1px solid #4262FF;
+    border-radius: 24px;
 
 }
 
