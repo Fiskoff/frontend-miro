@@ -54,6 +54,10 @@
     margin-top: 70px;
 }
 
+.tools__btn:hover {
+    background-color: rgba(242, 242, 242, 1);
+}
+
 
 
 
