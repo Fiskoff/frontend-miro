@@ -1,0 +1,50 @@
+.invitation__wrapper {
+    max-width: 1120px;
+    max-height: 600px;
+    background-color: #050038;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 16px;
+    
+}
+
+.invitation__wrapper :is(h2, p) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #050038;
+}
+
+#invitation__title{
+    margin-top: 120px;
+}
+
+.invitation__text,
+.invitation__text--underline {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #050038;
+}
+
+.invitation__text--underline {
+    text-decoration: underline;
+    text-underline-offset: 4px; 
+}
+
+.invitation__title{
+    color: white;
+    background-color: #050038;
+}
+
+.invitation__wrapper button {
+    color: white;
+    background-color: #4262FF;
+    border: #4262FF solid 1px;
+    margin-bottom: 120px;
+    margin-top: 25px;
+    max-width: 250px;
+    max-height: 50px;
+    align-self: center;
+    padding: 10px 40px;
+    
+}

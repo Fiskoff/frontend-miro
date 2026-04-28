@@ -1,0 +1,80 @@
+.statistics {
+    background-color: #FFD02F;
+    min-height: 1000px;
+    
+}
+
+.statistics__container {
+    background-color: #FFD02F;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    width: 100%;
+}
+
+.statistics__title {
+    background-color: #FFD02F;
+    padding-top: 120px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.statistics__title span{
+    display: block;
+    background-color: #FFD02F;
+    margin: 0 auto;
+}
+
+.statistics__container a {
+    background-color: #FFD02F;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;   
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-underline-offset: 4px; 
+    font-weight: 500;
+    
+}
+
+.statistics__table {
+    background-color: #FFD02F;
+    display: flex;
+    flex-direction: column;
+}
+
+.statistics__table--row {
+    background-color: #FFD02F;
+    display: flex;
+    flex-direction: row;
+    gap: 24px; 
+    justify-content: space-between
+}
+
+.statistics__card {
+    background-color: #FFD02F;
+    max-width: 350px;
+    margin-bottom: 120px;
+}
+
+.statistics__card :is(h3, p) {
+   background-color: #FFD02F;
+  
+   display: block;
+   width: fit-content;
+   margin: 0 auto;   
+}
+
+.statistics__card h3 {
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.statistics__card span {
+    background-color: #FFD02F;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: 500; 
+}

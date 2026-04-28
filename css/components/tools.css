@@ -34,8 +34,27 @@
     margin-bottom: 35px;
 }
 
-.tools__custom-list {
-    list-style-image: url('/imges/tools/marker.svg');
+.tools__custom-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 32px;
 }
+
+.tools__custom-list li::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("/imges/tools/marker.svg");
+    transform: translateX(8px);
+}
+
+.add-tools{
+    margin-top: 70px;
+}
+
+
+
 
 
